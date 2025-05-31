@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="$/2;9fyJb8JC*ax4ROFA" x="0" y="0"><statement name="HANDLER"><block type="contest_set_log_level" id="J*(Z7c$KS;R?p}EcXd(a"><field name="log_level">LogLevel.Warning</field><next><block type="contest_set_echo_to_console" id="K-G(LifS~RnRFX7j_(tn"><field name="enabled">true</field><next><block type="contest_init" id="A:w-5CnN/BpW{fN$aeF,"><field name="channel">CommunicationChannel.Radio</field><next><block type="contest_send_status" id="8:XQE8$=9wNC:2ERro+1"><next><block type="contest_set_bot_status" id="Jd|Og)Gq?cNeOC]EI[RB"><field name="bot_status">BotStatus.Searching</field><next><block type="contest_send_status" id="csb903ZO)GLHf*Wx17ez"></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="{RJ2hi7$VifKKg2gVQ~]" x="475" y="145"><statement name="HANDLER"><block type="contest_emit_heat_beat" id="rY%WAo%TEJ#E},/tAKis"><next><block type="control_wait_us" id="gKPto*s/+`@l/Gl)8j3h"><value name="micros"><shadow type="math_number_minmax" id="%q{QOky2|@iVYkax7Zes"><mutation min="0" max="6000" label="Number" precision="0"></mutation><field name="SLIDER">10000000</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="GJm)Z}Wdc1H{!4o)P8u8" x="-73" y="374"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="contest_set_radio_group" id="{.j|J4QN+^]!/%yxi99Z"></block></statement></block><block type="contest_on_danger_received" id="0!^hfCT7g*cf_M-mSs2M" x="693" y="417"><statement name="HANDLER"><block type="device_show_leds" id="lmM24v@J[)XC*$~|~T1c"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field></block></statement></block><block type="contest_on_stop_received" id="lucJ{zjUJ+He-t2.wR5=" x="-70" y="675"><statement name="HANDLER"><block type="device_show_leds" id="aBkhY:k5F-1UOOB6L7{e"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        # # . # # 
+        # # . # # 
+        # # . # #
+        `</field></block></statement></block><block type="contest_on_start_received" id=":34@AS5s/*QgGY(=b2t7" x="220" y="749"><statement name="HANDLER"><block type="device_show_leds" id="Nme/+c/7P)CBWu~0QxVe"><field name="LEDS">`
+        . # . . . 
+        . # # . . 
+        . # # # . 
+        . # # . . 
+        . # . . .
+        `</field></block></statement></block></xml>

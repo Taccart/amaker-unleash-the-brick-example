@@ -1,0 +1,27 @@
+{
+    "name": "amaker-unleash-the-brick-example",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "unleash-the-geek-bot": "github:taccart/amaker-unleash-the-bricks-lib#a1f54b3fe68ba190e16ee2bb946a683b3376b23f",
+        "unleash-the-bricks-lib": "github:taccart/amaker-unleash-the-bricks-lib#f4eaee5052309964a15c2df521b1f589d128c977"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
