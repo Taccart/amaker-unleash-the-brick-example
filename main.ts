@@ -1,4 +1,3 @@
-console.error(control.deviceName())
 UnleashTheBricks.onMessageStopReceived(function () {
     basic.showLeds(`
         # # . # #
@@ -29,7 +28,7 @@ UnleashTheBricks.onMessageStartReceived(function () {
         . # . . .
         `)
 })
-UnleashTheBricks.setEchoToConsole(true)
+console.error(control.deviceName())
 UnleashTheBricks.setLogLevel(LogLevel.Debug)
 UnleashTheBricks.setEchoToConsole(true)
 UnleashTheBricks.initCommunicationChannel(CommunicationChannel.Radio)
@@ -40,4 +39,3 @@ basic.forever(function () {
     UnleashTheBricks.emitHeartBeat()
     control.waitMicros(100000000)
 })
-

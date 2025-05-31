@@ -6,7 +6,7 @@
         "radio": "*",
         "microphone": "*",
         "amaker-motor": "github:Taccart/amaker-motor#0.0.4",
-        "amaker-unleash-the-bricks": "github:Taccart/amaker-unleash-the-bricks-lib#af01cdf8606777154f1695ce0b1e918ecc28a35f"
+        "amaker-unleash-the-bricks": "github:taccart/amaker-unleash-the-bricks-lib#master"
     },
     "files": [
         "main.blocks",
@@ -23,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
