@@ -5,8 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "unleash-the-geek-bot": "github:taccart/amaker-unleash-the-bricks-lib#a1f54b3fe68ba190e16ee2bb946a683b3376b23f",
-        "unleash-the-bricks-lib": "github:taccart/amaker-unleash-the-bricks-lib#f4eaee5052309964a15c2df521b1f589d128c977"
+        "amaker-motor": "github:Taccart/amaker-motor#0.0.4",
+        "amaker-unleash-the-bricks": "github:Taccart/amaker-unleash-the-bricks-lib#af01cdf8606777154f1695ce0b1e918ecc28a35f"
     },
     "files": [
         "main.blocks",

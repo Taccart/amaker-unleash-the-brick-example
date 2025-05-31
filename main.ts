@@ -1,3 +1,4 @@
+console.error(control.deviceName())
 UnleashTheBricks.onMessageStopReceived(function () {
     basic.showLeds(`
         # # . # #
@@ -29,11 +30,14 @@ UnleashTheBricks.onMessageStartReceived(function () {
         `)
 })
 UnleashTheBricks.setEchoToConsole(true)
+UnleashTheBricks.setLogLevel(LogLevel.Debug)
+UnleashTheBricks.setEchoToConsole(true)
 UnleashTheBricks.initCommunicationChannel(CommunicationChannel.Radio)
 UnleashTheBricks.emitStatus()
 UnleashTheBricks.setBotStatus(BotStatus.Searching)
 UnleashTheBricks.emitStatus()
 basic.forever(function () {
     UnleashTheBricks.emitHeartBeat()
-    control.waitMicros(10000000)
+    control.waitMicros(100000000)
 })
+
