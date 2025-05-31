@@ -28,14 +28,13 @@ UnleashTheBricks.onMessageStartReceived(function () {
         . # . . .
         `)
 })
-console.error(control.deviceName())
 UnleashTheBricks.setLogLevel(LogLevel.Debug)
 UnleashTheBricks.setEchoToConsole(true)
 UnleashTheBricks.initCommunicationChannel(CommunicationChannel.Radio)
-UnleashTheBricks.emitStatus()
 UnleashTheBricks.setBotStatus(BotStatus.Searching)
-UnleashTheBricks.emitStatus()
+UnleashTheBricks.setBotStatus(BotStatus.Capturing)
+UnleashTheBricks.setBotStatus(BotStatus.BringingBack)
 basic.forever(function () {
     UnleashTheBricks.emitHeartBeat()
-    control.waitMicros(100000000)
+    control.waitMicros(10000000)
 })
