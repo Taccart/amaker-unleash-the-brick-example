@@ -6,7 +6,7 @@
         "radio": "*",
         "microphone": "*",
         "amaker-motor": "github:Taccart/amaker-motor#0.0.4",
-        "amaker-unleash-the-bricks": "github:taccart/amaker-unleash-the-bricks-lib#master"
+        "amaker-unleash-the-bricks": "github:taccart/amaker-unleash-the-bricks-lib#0.0.0"
     },
     "files": [
         "main.blocks",
